@@ -18,13 +18,13 @@ then
 	$msg "LÖVE not installed, please install from http://love2d.org"
 else
 	#Love is installed: which version?
-	love_version="`love --version | grep 0.10.2`"
+	love_version="`love --version | grep 11.1`"
 	if [[ -z $love_version ]]
 	then
-		#Not 0.10.2
-		$msg "LÖVE 0.10.2 is required. Currently installed: `love --version`. Please install LOVE2d v0.10.2 from http://love2d.org."
+		#Not 11.1
+		$msg "LÖVE 11.1 is required. Currently installed: `love --version`. Please install LOVE v11.1 from http://love2d.org."
 	else
-		#0.10.2 installed, launch LIKO-12
+		#11.1 installed, launch LIKO-12
 		love .
 	fi
 fi
