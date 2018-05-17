@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16A323</string>
+	<string>17D47</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDocumentTypes</key>
@@ -57,16 +57,18 @@
 	<string>love</string>
 	<key>CFBundleIconFile</key>
 	<string>OS X AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>OS X AppIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>me.ramilego4game.liko12</string>
+	<string>me.ramilego4game.LIKO-12</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>LIKO-12 PRE</string>
+	<string>LIKO-12</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.10.2.0</string>
+	<string>11.1</string>
 	<key>CFBundleSignature</key>
 	<string>LoVe</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -76,24 +78,26 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8B62</string>
+	<string>9C40b</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16B2649</string>
+	<string>17C76</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12</string>
+	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>0810</string>
+	<string>0920</string>
 	<key>DTXcodeBuild</key>
-	<string>8B62</string>
+	<string>9C40b</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.games</string>
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>© 2006-2016 LÖVE Development Team</string>
+	<string>© 2006-2018 LÖVE Development Team</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<false/>
 </dict>
 </plist>
