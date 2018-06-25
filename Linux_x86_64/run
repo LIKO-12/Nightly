@@ -1,0 +1,16 @@
+#!/bin/bash
+
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+ARCH=$(uname -m)
+
+if [ $ARCH == 'x86_64' ]; then
+  Love/LIKO-12-linux-x86_64.AppImage $SCRIPTPATH
+else
+  echo "This build is for x86_64,"
+  echo "please download the correct build for your computer architecture ("$ARCH"),"
+  echo "if there isn't any build for your architecture,"
+  echo "try to install love 11.1 for your architecture (check http://love2d.org),"
+  echo "and then use it to execute the universal .love file if available"
+  echo "(if not try to contact the developer, or type 'love .' in this directory)."
+fi

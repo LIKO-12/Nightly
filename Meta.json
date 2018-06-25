@@ -1,0 +1,8 @@
+{
+	"Name":"BuildTemplates",
+	"Version":"2.0",
+	"Love":"11.1",
+	"Templates":[
+		"Windows_x86", "Linux_x86_64", "OS_X"
+	]
+}

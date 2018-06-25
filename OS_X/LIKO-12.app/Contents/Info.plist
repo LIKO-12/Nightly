@@ -60,7 +60,7 @@
 	<key>CFBundleIconName</key>
 	<string>OS X AppIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>me.ramilego4game.LIKO-12</string>
+	<string>me.ramilego4game.liko12</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
